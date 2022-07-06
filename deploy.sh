@@ -2,8 +2,7 @@
 
 # 确保脚本抛出遇到的错误
 set -e
-#export GITHUB_TOKEN=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
-#echo ${GITHUB_TOKEN}
+
 # 生成静态文件
 npm run build
 
@@ -16,11 +15,13 @@ echo 'bigox.top' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:daniuEvan/daniuEvan.github.io.git
- else
+else
+  Date=`date '+%Y%m%d%H%M%S'`
+  echo $Date
   msg='来自github actions的自动部署'
   githubUrl=https://daniuEvan:${GITHUB_TOKEN}@github.com/daniuEvan/daniuEvan.github.io.git
-  git config --global user.name "xugaoyi"
-  git config --global user.email "894072666@qq.com"
+  git config --global user.name "daniuEvan"
+  git config --global user.email "big_ox@163.com"
 fi
 
 
