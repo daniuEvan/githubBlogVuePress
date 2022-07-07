@@ -17,7 +17,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         '/': {
             lang: 'zh-CN',
             title: "刘沙河",
-            description: '人总要在合适的地方掉头或者调整方向!',
+            description: '',
         }
     },
     // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -351,7 +351,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         blogger: {
             avatar: '/img/dengxia.gif',
             name: '刘沙河',
-            slogan: '',
+            slogan: '人总要在合适的地方掉头或者调整方向!',
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)

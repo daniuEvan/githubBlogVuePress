@@ -17,7 +17,7 @@ features: # 可选的
     link: /Python/
     imgUrl: /img/python.png
   - title: 其他
-    details: 我只是一个占位 😅
+    details: 我只是一个占位的 😅
     link: /
     imgUrl: /img/more.png
 
