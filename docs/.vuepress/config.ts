@@ -351,7 +351,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         blogger: {
             avatar: '/img/dengxia.gif',
             name: '刘沙河',
-            slogan: '人总要在合适的地方掉头或者调整方向!',
+            slogan: '好想成为技术大佬',
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
