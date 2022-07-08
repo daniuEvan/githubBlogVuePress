@@ -57,8 +57,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: 'slice 实现原理', link: '/pages/99be2b/'},
                             {text: 'map 实现原理', link: '/pages/d185ed/'},
                             {text: 'sync.Mutex 实现原理', link: '/pages/9ab782/'},
-                            {text: 'defer 实现原理', link: '/pages/cd8503/'},
                             {text: '乐观锁CAS 实现原理', link: '/pages/f2d80d/'},
+                            {text: 'singlefight 实现原理', link: '/pages/4f0a6e/'},
                         ],
                     },
                     {
