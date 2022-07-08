@@ -5,6 +5,7 @@ import {resolve} from 'path'
 import {defineConfig4CustomTheme, UserPlugins} from 'vuepress/config'
 import {VdoingThemeConfig} from 'vuepress-theme-vdoing/types'
 import { readFileList, readTotalFileWords, readEachFileWords } from './webSiteInfo/readFile';
+// @ts-ignore
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
@@ -168,7 +169,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     },
                     {
                         text: 'Elasticsearch',
-                        items: [],
+                        items: [
+                            {text: 'es基本概念', link: '/pages/0fbad4/'},
+                            {text: 'es基础语法', link: '/pages/e67888/'},
+                            {text: 'es倒排索引', link: '/pages/3cb85c/'},
+                        ],
                     },
                     {
                         text: 'etcd',
