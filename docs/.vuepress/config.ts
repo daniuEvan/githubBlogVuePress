@@ -203,6 +203,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: 'rabbitMQ基础', link: '/pages/d10ce0/'},
                             {text: 'Go操作rabbitmq', link: '/pages/6510fb/'},
                         ],
+                    },
+                    {
+                        text: 'RocketMQ',
+                        items: [
+                            {text: '可靠消息队列 rocketMQ', link: '/pages/ea2fe2/'},
+                        ],
                     }
                 ],
             },
