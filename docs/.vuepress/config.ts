@@ -195,6 +195,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: 'kafka 概述及原理', link: '/pages/dbfcdf/'},
                             {text: 'kafka 消费问题记录', link: '/pages/6868ce/'},
                             {text: '零拷贝技术', link: '/pages/a531a8/'},
+                            {text: 'kafka分区规范', link: '/pages/362fa0/'},
                         ],
                     },
                     {
