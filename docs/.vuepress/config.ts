@@ -93,7 +93,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         items: [
                             {text: '数据类型小结', link: '/pages/0b5cee/'},
                             {text: '迭代器生成器', link: '/pages/feb633/'},
-                            {text: '迭代器生面向对象', link: '/pages/4199f7/'},
+                            {text: '面向对象', link: '/pages/4199f7/'},
                         ],
                     },
                     {
