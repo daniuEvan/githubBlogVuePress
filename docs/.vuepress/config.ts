@@ -257,6 +257,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                             {text: 'k8s基础概念', link: '/pages/a01570/'},
                             {text: 'kubernetes负载', link: '/pages/cf3d18/'},
                             {text: 'Helm', link: '/pages/b63ddc/'},
+                            {text: 'mac快速启动k8s', link: '/pages/a244f0/'},
                         ],
                     },
                 ],
