@@ -159,12 +159,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                         text: 'Redis',
                         items: [
                             {text: 'redis基础和数据类型', link: '/pages/5665df/'},
-                            {text: 'redis线程模型', link: '/pages/ede62d/'},
                             {text: 'redis主从架构', link: '/pages/d17810/'},
                             {text: 'redis哨兵架构', link: '/pages/c1b6e9/'},
                             {text: 'redis集群模式', link: '/pages/b05ef8/'},
                             {text: '如何保证缓存和数据库双写一致', link: '/pages/74ad69/'},
                             {text: 'redis 底层数据结构', link: '/pages/b931f8/'},
+                            {text: 'redis分布式锁', link: '/pages/154654/'},
                         ],
                     },
                     {
@@ -178,8 +178,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: 'etcd',
                         items: [
-                            {text: 'etcd版本差异', link: '/pages/cf4840/'},
+                            {text: 'Go操作etcd', link: '/pages/a376b5/'},
                             {text: 'Raft原理', link: '/pages/2f5a88/'},
+                            {text: 'etcd分布式锁', link: '/pages/59288f/'},
                         ],
                     },
                 ],
