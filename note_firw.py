@@ -7,7 +7,7 @@ import os
 # note_dir = '/Users/liusaisai/my_note'
 # note_dir = '/Users/liusaisai/githubBlog/content/posts'
 # note_dir = '/Users/liusaisai/githubBlogVuePress/docs'
-note_dir = '/Users/liusaisai/githubBlogVuePress/docs/06.docker+k8s'
+note_dir = '/Users/liusaisai/githubBlogVuePress/docs/10.收藏夹'
 
 
 # note_dir = '/Users/liusaisai/my_note/数据库/redis'
