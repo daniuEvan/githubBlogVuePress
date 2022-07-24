@@ -7,7 +7,7 @@ import os
 # note_dir = '/Users/liusaisai/my_note'
 # note_dir = '/Users/liusaisai/githubBlog/content/posts'
 # note_dir = '/Users/liusaisai/githubBlogVuePress/docs'
-note_dir = '/Users/liusaisai/githubBlogVuePress/docs/06.容器相关/02.k8s'
+note_dir = '/Users/liusaisai/githubBlogVuePress/docs/06.docker+k8s'
 
 
 # note_dir = '/Users/liusaisai/my_note/数据库/redis'
@@ -29,7 +29,7 @@ def node_find():
             files_abs_path = os.path.join(base_dir, file_name)
             fr = open(files_abs_path, 'r', encoding='utf8')
             msg = fr.read()
-            msg = msg.replace("""tags:""", """tags:\n  - k8s""")
+            msg = msg.replace("""link: https://github.com/daniuEvan""", """link: https://bigox.top""")
             fr.close()
             fw = open(files_abs_path, 'w', encoding='utf8')
             fw.write(msg)

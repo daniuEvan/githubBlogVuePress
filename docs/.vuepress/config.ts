@@ -238,7 +238,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 ],
             },
             {
-                text: '容器相关',
+                text: 'Docker+k8s',
                 link: '/container/',
                 items: [
                     {
@@ -255,8 +255,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                     {
                         text: 'k8s',
                         items: [
-                            {text: 'k8s基础概念', link: '/pages/a01570/'},
-                            {text: 'kubernetes负载', link: '/pages/cf3d18/'},
+                            {text: 'k8s 基础概念', link: '/pages/a01570/'},
+                            {text: 'k8s 负载', link: '/pages/cf3d18/'},
+                            {text: 'k8s 集群架构', link: '/pages/ac1ceb/'},
+                            {text: 'Pod 网络', link: '/pages/fffa5b/'},
+                            {text: 'Service 网络', link: '/pages/f55da9/'},
+                            {text: '外部接入网络', link: '/pages/7f5625/'},
                             {text: 'Helm', link: '/pages/b63ddc/'},
                             {text: 'mac快速启动k8s', link: '/pages/a244f0/'},
                         ],
@@ -358,7 +362,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
         author: {
             name: 'bigox', // 必需
-            // link: 'https://github.com/daniuEvan', // 可选的
+            link: 'https://bigox.top', // 可选的
         },
 
         // 博主信息 (显示在首页侧边栏)
@@ -401,7 +405,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         extendFrontmatter: {
             author: {
                 name: 'bigox',
-                link: 'https://github.com/daniuEvan'
+                link: 'https://bigox.top'
             }
         },
 
